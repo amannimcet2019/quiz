@@ -1,0 +1,98 @@
+{
+    "_id": {
+        "$oid": "616fd48e4949dcd31eaa26a4"
+    },
+    "testno":2,
+    "questions":[
+     {
+       "question":"Which of the following is not a function of the database?",
+       "option1":"Managing stored data",       
+       "option2":"Manipulating data",
+       "option3":"Security for stored data",       
+       "option4":"Analysing code",    
+       "answer":4,
+       "description":"It allows authorized users to update, store, manipulate, or access data. Since data is stored in table format it is easy to access the data and perform the required functions. It also removes duplicate and redundant data."      
+     },
+     {
+       "question":" Which of the following is a function of the DBMS?",
+       "option1":"Storing data",       
+       "option2":"Providing multi-users access control",
+       "option3":" Data Integrity",       
+       "option4":"All of the above",    
+       "answer":4,
+       "description":"The purpose of creating DBMS was to store the data. The data stored in the database management system can be can accessed by multiple users if the access is provided. The data stored will be accurate and complete hence providing data integrity."      
+     },
+     {
+       "question":"Which of the following is a component of the DBMS?",
+       "option1":"Data",       
+       "option2":"Data language",
+       "option3":"Data Manager",       
+       "option4":"All of the above",    
+       "answer":4,
+       "description":"All are correct"      
+     },
+     {
+       "question":"Which of the following is known as a set of entities of the same type that share same properties, or attributes?",
+       "option1":"Relation set",       
+       "option2":"Tuples",
+       "option3":"Entity set",       
+       "option4":"Entity Relation model",    
+       "answer":3,
+       "description":"In the actual world, an entity is a distinct “thing” or “object” from all other objects. For example: Each employee of an organization is an entity"      
+     },
+     {
+       "question":"What is information about data in a database called?",
+       "option1":"Hyper data",       
+       "option2":"Tera data",
+       "option3":"Meta data",       
+       "option4":"Relations",    
+       "answer":3,
+       "description":"Information about data is known as Metadata. Metadata describes the data in detail by providing additional information like type, length of the data, etc. Metadata helps the user to understand the data."      
+     },
+     {
+       "question":"What does a relational database consist of ?",
+       "option1":"Collection of Records",       
+       "option2":"Collection of Keys",
+       "option3":"Collection of Tables",       
+       "option4":"Collection of Fields",    
+       "answer":3,
+       "description":"The relational database consists of a collection of tables i.e., the data is organized in tabular format. The columns of the relation are known as Fields and rows of the relation are known as fields. Constraints in a relation are known as Keys."      
+     },
+     {
+       "question":"The values appearing in given attributes of any tuple in the referencing relation must likewise occur in specified attributes of at least one tuple in the referenced relation, according to _____________________ integrity constraint.?",
+       "option1":"Referential",       
+       "option2":"Primary",
+       "option3":"Referencing",       
+       "option4":"Specific",    
+       "answer":1,
+       "description":"Consider 2 relations r1 and r2. r1 may include among its attributes the primary key of relation r2. This attribute is called a foreign key from r1, referencing r2. The relation r1 is also called the referencing relation of the foreign key dependency, and r2 is called the referenced relation of the foreign key."      
+     },
+     {
+       "question":" _____________ is a hardware component that is most important for the operation of a database management system.",
+       "option1":"Microphone",       
+       "option2":"High speed, large capacity disk to store data",
+       "option3":"High-resolution video display",       
+       "option4":"Printer",    
+       "answer":2,  
+       "description":" Since all the data are stored in form of memory in the disk, a high speed, and large-capacity disk is required for the operation of the database management system."      
+     },
+     {
+       "question":" The DBMS acts as an interface between ________________ and ________________ of an enterprise-class system.",
+       "option1":"Data and the DBMS",       
+       "option2":"Application and SQL",
+       "option3":"Database application and the database",       
+       "option4":"The user and the software",    
+       "answer":3,
+       "description":"A database management system is an application that acts as an interface between the user and the database. The user interacts with the application to access data"      
+     },
+     {
+       "question":" The ability to query data, as well as insert, delete, and alter tuples, is offered by ____________",
+       "option1":"TCL (Transaction Control Language)",       
+       "option2":"DCL (Data Control Language)",
+       "option3":"DDL (Data Definition Langauge)",       
+       "option4":"DML (Data Manipulation Langauge)",    
+       "answer":4,
+       "description":"A query is a request for data or information. Relational Schema is the design and structure of the relation. DDL consists of commands that help in modifying. DML performs the change in the values of the relation"      
+     }
+     ]    
+}
